@@ -1,0 +1,152 @@
+@media screen and (max-width: 320px){
+    .titulo_vercel h1 {
+        font-size: 32px !important;
+    }
+
+    .frase_vercel p {
+        font-size: 18px !important;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .icon_vercel img {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .contenedor_txt_section_2 {
+        padding: 10px;
+    }
+
+    .OYPEnA {
+        font-size: 20px !important;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .btn_section_2_2 {
+        font-size: 14px !important;
+        padding: 8px 16px !important;
+        width: 90%;
+    }
+
+    .initial_msg h1 {
+        font-size: 32px !important;
+    }
+
+    .initial_msg img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .button-cloud-container {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .button-cloud-container img {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .copy p {
+        margin-top: 0px;
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 424px){
+    .titulo_vercel h1 {
+        font-size: 55px !important;
+    }
+
+    .frase_vercel p {
+        font-size: 18px !important;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .icon_vercel img {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .contenedor_txt_section_2 {
+        padding: 10px;
+    }
+
+    .OYPEnA {
+        font-size: 20px !important;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .btn_section_2_2 {
+        font-size: 14px !important;
+        padding: 8px 16px !important;
+        width: 90%;
+    }
+
+    .initial_msg h1 {
+        font-size: 45px !important;
+    }
+
+    .initial_msg img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .button-cloud-container {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .button-cloud-container img {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .copy p {
+        margin-top: 0px;
+        font-size: 18px !important;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 480px){
+    .contenedor-msg{
+        padding: 15px;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-width: 767px){
+    .titulo_vercel{
+        gap: 20px;
+    }
+
+    .frase_vercel p{
+        font-size: 18px;
+    }
+
+    .titulo_vercel h1{
+        font-size: 40px;
+    }
+
+    .OYPEnA{
+        font-size: 20px;
+    }
+
+    .initial_msg img{
+        width: 43px !important;
+        height: 43px !important;
+    }
+
+    .initial_msg h1{
+        font-size: 55px !important;
+    }
+
+    .final_msg {
+        gap: 0px !important;
+    }
+}

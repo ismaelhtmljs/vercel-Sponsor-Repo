@@ -1,0 +1,78 @@
+.try-vercel-page{
+    background-color: #39316b;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.try-vercel-page h1 {
+    position: relative;
+    z-index: 1;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.main-grid-pag5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    margin: 0 auto;
+}
+
+.contenedor-grid-pag5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    gap: 56px;
+    margin: 0 auto;
+}
+
+.video-grid-pag5{
+    display: block;
+    border-radius: 24px;
+    transition: transform 0.3s ease;
+}
+
+.video-grid-pag5:hover {
+    transform: scale(1.02);
+}
+
+.video-grid-pag5 video {
+    width: 100%;
+    display: block;
+    border-radius: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.video-grid-pag5 video::-webkit-media-controls {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 24px;
+}
+
+.video-grid-pag5 video::-webkit-media-controls-panel {
+    padding: 0 10px;
+}
+
+.button-grid-pag5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-grid-pag5 button{
+    background-color: #ffffff;
+    color: #39316b;
+    border: none;
+    border-radius: 24px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+}

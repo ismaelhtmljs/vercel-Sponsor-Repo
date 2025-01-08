@@ -1,0 +1,29 @@
+.sobre-vercel-page{
+    background-color: #39316b;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.main-grid-pag4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    margin: 0 auto;
+}
+
+.contenedor-grid-pag4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    margin: 0 auto;
+    gap: 56px;
+}

@@ -1,0 +1,51 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0000004f;
+}
+
+.Redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.iconos-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconos-redes::before{
+    margin-right: 10px;
+    margin-left: 2px;
+    width: 2px;
+    height: 30px;
+    background-color: #ffffff6b;
+    content: "";
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+}
+
+.github:hover,
+.twitter:hover,
+.youtube:hover{
+    filter: contrast(0);
+    cursor: pointer;
+}
