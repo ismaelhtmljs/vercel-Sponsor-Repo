@@ -2,7 +2,7 @@
 import "./style.css";
 import { IconoHostingClick, NextBlogClick } from "@/utils/navegation";
 import { useRouter } from 'next/navigation';
-import './pages/css/mediaqueris/pag1_mediaqueri.css'
+import './pages/css/mediaqueris/pag1_mediaqueri.css';
 
 export default function Home() {
   const router = useRouter();
@@ -24,9 +24,9 @@ export default function Home() {
         <div className="content">
           <div className="titulo_vercel">
             <div className="frase_vercel">
-                <p>Despliega tu futuro con Vercel: rápido, confiable y sin límites.</p>
+                <p translate="no">Despliega tu futuro con Vercel: rápido, confiable y sin límites.</p>
             </div>
-            <h1>VERCEL</h1>
+            <h1 translate="no">VERCEL</h1>
             <div className="icon_vercel" onClick={IconoHostingClick}>
                 <img src="/favicon.ico" alt="Vercel" style={{width: "76px", height: "76px"}}/>
             </div>
@@ -70,7 +70,7 @@ export default function Home() {
         <div className="contenedor_contenido_section_2">
           <div className="contenedor_txt_section_2">
             <p className="about-text">ACERCA DE VERCEL</p>
-            <span className="OYPEnA">
+            <span className="OYPEnA" translate="no">
                 Vercel es una plataforma que transforma
                 <br/>
                 la manera de desplegar aplicaciones web.
@@ -87,12 +87,14 @@ export default function Home() {
               type="button" 
               className="btn_section_2_2" 
               onClick={() => NextBlogClick(router)}
+              translate="no"
             >
               SUMÉRGETE EN EL BLOG
             </button>
           </div>
         </div>
       </div>
+      {/* CONTENEDOR DE LA SECCION 3 */}
       <div className="container_section_3">
         <div className="background_section_3">
           <img src="/Background_footer_vercel_blog1.png" alt="" className="img_section_3"/>

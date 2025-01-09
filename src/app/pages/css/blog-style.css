@@ -11,7 +11,7 @@ a:hover{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:  scroll;
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -34,7 +34,7 @@ body {
     padding: 25px;
 }
 
-.titulo_vercel_2_1{
+.titulo_vercel_1_1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,4 +50,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.menu-responsive{
+    display: none;
 }

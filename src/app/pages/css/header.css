@@ -6,6 +6,10 @@
     background-color: #0000004f;
 }
 
+.contenedor-header{
+    display: contents;
+}
+
 .Redes{
     display: flex;
     justify-content: center;
@@ -48,4 +52,8 @@
 .youtube:hover{
     filter: contrast(0);
     cursor: pointer;
+}
+
+.close-menu{
+    display: none;
 }
