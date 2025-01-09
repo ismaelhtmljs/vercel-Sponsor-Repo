@@ -21,7 +21,7 @@ function Header(){
                 <div className="logo">
                     <MdOutlineMenu style={{color: 'black', fontSize: '30px'}} className='menu' onClick={toggleMenu}/>
                     <div className="section_titulo_blog_vercel" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                        <img src="/favicon.ico" alt="" style={{width: '36px' , height : 'auto' , display: 'flex' , alignItems: 'center'}}/>
+                        <img src="/favicon.ico" alt="" style={{width: '36px' , height : 'auto' , display: 'flex' , alignItems: 'center', marginRight: '5px'}}/>
                         <h1> VERCEL </h1> 
                     </div>
                     <FaGithub style={{color: 'black', fontSize: '30px'}} className="Github_header_responsive" onClick={github_Vercel}/>
