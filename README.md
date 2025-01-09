@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vercel Sponsor Project
+
+A Next.js project showcasing sponsorship features with a modern and responsive design.
 
 ## Getting Started
 
@@ -10,27 +12,103 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+/.next
+/.node_modules
 
-## Learn More
+/public
+  ├── images
+  │   ├── Fondo_deploy.jpg
+  │   ├── Img_vercel_prataformer.png
+  │   └── Vercel-icon-img.jpg
+  ├── video
+  │   ├── background.mp4
+  │   └── video-1.mp4
+  ├── Background_footer_vercel_blog1.png
+  ├── cloud-globe.svg
+  ├── file.svg
+  ├── globe.svg
+  ├── next.svg
+  ├── vercel.svg
+  └── window.svg
 
-To learn more about Next.js, take a look at the following resources:
+/src
+  ├── app
+  │   ├── pages
+  │   │   ├── css
+  │   │   │   ├── mediaqueris
+  │   │   │   │   ├── pag-sections
+  │   │   │   │   │   ├── pag1_mediaqueri_sector.css
+  │   │   │   │   │   ├── pag2_mediaqueri_sector.css
+  │   │   │   │   │   └── pag3_mediaqueri_sector.css
+  │   │   │   │   ├── pag1_mediaqueri.css
+  │   │   │   │   └── pag2_mediaquieri.css
+  │   │   │   ├── sobre-vercel
+  │   │   │   │   └── sobre-vercel.css
+  │   │   │   ├── try-vercel
+  │   │   │   │   └── try-vercel.css
+  │   │   │   ├── what-is-vercel
+  │   │   │   │   └── what-is-vercel.css
+  │   │   │   ├── blog-style.css
+  │   │   │   ├── header.css
+  │   │   │   ├── LandingScreenStyle.css
+  │   │   │   ├── notch-support.css
+  │   │   │   └── ScreenTransition.css
+  │   │   ├── site
+  │   │   │   ├── sobre-vercel
+  │   │   │   │   └── page.jsx
+  │   │   │   ├── try-vercel
+  │   │   │   │   └── page.jsx
+  │   │   │   ├── what-is-vercel
+  │   │   │   │   └── page.jsx
+  │   │   │   └── page.jsx
+  │   ├── favicon.ico
+  │   ├── global.css
+  │   ├── layout.tsx
+  │   ├── page.tsx
+  │   └── style.css
+  ├── components
+  │   ├── Header.jsx
+  │   ├── LandingScreenAnimation.jsx
+  │   └── ScreenTransition.jsx
+  └── utils
+      ├── navegation-icon.js
+      └── navegation.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+/.gitignore
+/eslint.config.mjs
+/next-env.d.ts
+/next.config.ts
+/package-lock.json
+/package.json
+/README.md
+/tsconfig.json
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Features
 
-## Deploy on Vercel
+- Modern and responsive design
+- Smooth transitions and animations
+- Video integration with controls
+- Cross-browser compatibility
+- Mobile-first approach
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Technologies Used
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js
+- React
+- JavaScript
+- CSS Modules
+
+
+## Enlace | Link
+
+```
+Link: https://vercel-sponsor-repo.vercel.app/
+```
