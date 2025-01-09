@@ -2,19 +2,12 @@
 
 A Next.js project showcasing sponsorship features with a modern and responsive design.
 
-## Getting Started
 
-First, run the development server:
+## Enlace | Link
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Link: https://vercel-sponsor-repo.vercel.app/
+```
 
 ## Project Structure
 
@@ -91,6 +84,20 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 /tsconfig.json
 ```
 
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
 ## Features
 
 - Modern and responsive design
@@ -103,12 +110,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 - Next.js
 - React
-- JavaScript
+- JavaScript(More JavaScript is used)
 - CSS Modules
-
-
-## Enlace | Link
-
-```
-Link: https://vercel-sponsor-repo.vercel.app/
-```
