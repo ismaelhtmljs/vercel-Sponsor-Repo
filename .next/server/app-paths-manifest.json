@@ -1,5 +1,7 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
-  "/pages/site/page": "app/pages/site/page.js"
+  "/pages/site/page": "app/pages/site/page.js",
+  "/pages/site/what-is-vercel/page": "app/pages/site/what-is-vercel/page.js",
+  "/pages/site/try-vercel/page": "app/pages/site/try-vercel/page.js",
+  "/pages/site/sobre-vercel/page": "app/pages/site/sobre-vercel/page.js"
 }

@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import '../../css/header.css'
 import ScreenTransition from '@/components/ScreenTransition';
 import { TryVercelClick } from '@/utils/navegation';
+import '../../css/mediaqueris/pag-sections/pag3_mediaqueiri_sector.css'
 
 export default function TryVercel() {
     return (

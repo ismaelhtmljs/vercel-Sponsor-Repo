@@ -2,6 +2,7 @@ import '../../css/sobre-vercel/sobre-vercel.css'
 import Header from '@/components/Header';
 import ScreenTransition from '@/components/ScreenTransition';
 import '../../css/header.css'
+import '../../css/mediaqueris/pag-sections/pag2_mediaqueri_sector.css'
 
 export default function SobreVercel() {
     return (
@@ -12,7 +13,7 @@ export default function SobreVercel() {
                 <main className='main-grid-pag4'>
                     <div className="contenedor-grid-pag4">
                         <div className="imagen-grid-pag4">
-                            <img src="/images/Img_vercel_prataformer.png" alt="" style={{width: '560px', height: 'auto', objectFit: 'cover', borderRadius: '24px'}}/>
+                            <img src="/images/Img_vercel_prataformer.png" alt="" style={{width: '460px', height: 'auto', objectFit: 'cover', borderRadius: '24px'}}/>
                         </div>
                         <div className="texto-grid-pag4">
                             <h1 style={{fontSize: '54.7px'}}>SOBRE VERCEL</h1>

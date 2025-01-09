@@ -1,6 +1,7 @@
 'use client'
 import '../../css/what-is-vercel/what-is-vercel.css'
 import Header from '@/components/Header';
+import '../../css/mediaqueris/pag-sections/pag1_mediaqueri_sector.css';
 import '../../css/header.css'
 import ScreenTransition from '@/components/ScreenTransition';
 

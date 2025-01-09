@@ -7,7 +7,7 @@
 }
 
 .contenedor-header{
-    gap: 15px;
+    gap: 18px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -73,4 +73,488 @@
 
 .hr-responsive-header{
     display: none;
+}
+
+@media screen and (max-width: 320px){
+    .nav{
+        display: none;
+    }
+    
+    .header{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .iconos-redes{
+        gap: 15px !important;
+    }
+    
+    .menu-responsive{
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-active ul{
+        list-style: none;
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .contenedor-header{
+        width: 100%;
+    }
+    
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .Redes{
+        display: none;
+    }
+    
+    .hr-responsive-header{
+        margin-bottom: 15px;
+    }
+    
+    .menu{
+        display: block;
+        width: 46px !important;
+        height: auto;
+    }
+    
+    .Github_header_responsive{
+        display: block;
+    }
+
+    .contenedor-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 424px){
+    .nav{
+        display: none;
+    }
+    
+    .header{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .iconos-redes{
+        gap: 15px !important;
+    }
+    
+    .menu-responsive{
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-active ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .contenedor-header{
+        width: 100%;
+    }
+    
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .Redes{
+        display: none;
+    }
+    
+    .hr-responsive-header{
+        margin-bottom: 15px;
+    }
+    
+    .menu{
+        display: block;
+        width: 46px !important;
+        height: auto;
+    }
+    
+    .Github_header_responsive{
+        display: block;
+    }
+
+    .contenedor-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 425px) and (max-width: 480px){
+    .nav{
+        display: none;
+    }
+    
+    .header{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .iconos-redes{
+        gap: 15px !important;
+    }
+    
+    .menu-responsive{
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-active ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .contenedor-header{
+        width: 100%;
+    }
+    
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .Redes{
+        display: none;
+    }
+    
+    .hr-responsive-header{
+        margin-bottom: 15px;
+    }
+    
+    .menu{
+        display: block;
+        width: 46px !important;
+        height: auto;
+    }
+    
+    .Github_header_responsive{
+        display: block;
+    }
+
+    .contenedor-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .nav{
+        display: none;
+    }
+    
+    .header{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .iconos-redes{
+        gap: 15px !important;
+    }
+    
+    .menu-responsive{
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-active ul{
+        list-style: none;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .contenedor-header{
+        width: 100%;
+    }
+    
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .Redes{
+        display: none;
+    }
+    
+    .hr-responsive-header{
+        margin-bottom: 15px;
+    }
+    
+    .menu{
+        display: block;
+        width: 46px !important;
+        height: auto;
+    }
+    
+    .Github_header_responsive{
+        display: block;
+    }
+
+    .contenedor-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* landscape */
+@media screen and (max-height: 320px){
+    .nav{
+        display: none;
+    }
+    
+    .header{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .iconos-redes{
+        gap: 15px !important;
+    }
+    
+    .menu-responsive{
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-active ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .contenedor-header{
+        width: 100%;
+    }
+    
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .Redes{
+        display: none;
+    }
+    
+    .hr-responsive-header{
+        margin-bottom: 15px;
+    }
+    
+    .menu{
+        display: block;
+        width: 46px !important;
+        height: auto;
+    }
+    
+    .Github_header_responsive{
+        display: block;
+    }
+
+    .contenedor-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-height: 375px){
+    .nav{
+        display: none;
+    }
+    
+    .header{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .iconos-redes{
+        gap: 15px !important;
+    }
+    
+    .menu-responsive{
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-active ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .contenedor-header{
+        width: 100%;
+    }
+    
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .Redes{
+        display: none;
+    }
+    
+    .hr-responsive-header{
+        margin-bottom: 15px;
+    }
+    
+    .menu{
+        display: block;
+        width: 46px !important;
+        height: auto;
+    }
+    
+    .Github_header_responsive{
+        display: block;
+    }
+
+    .contenedor-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-height: 425px){
+    .nav{
+        display: none;
+    }
+    
+    .header{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .iconos-redes{
+        gap: 15px !important;
+    }
+    
+    .menu-responsive{
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-active ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .contenedor-header{
+        width: 100%;
+    }
+    
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .Redes{
+        display: none;
+    }
+    
+    .hr-responsive-header{
+        margin-bottom: 15px;
+    }
+    
+    .menu{
+        display: block;
+        width: 46px !important;
+        height: auto;
+    }
+    
+    .Github_header_responsive{
+        display: block;
+    }
+
+    .contenedor-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }

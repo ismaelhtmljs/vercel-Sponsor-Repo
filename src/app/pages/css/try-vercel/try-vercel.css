@@ -4,18 +4,12 @@
     width: 100%;
     margin: 0;
     padding: 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
 }
 
 .try-vercel-page h1 {
     position: relative;
     z-index: 1;
     color: #ffffff;
-    padding: 20px;
 }
 
 .main-grid-pag5{
