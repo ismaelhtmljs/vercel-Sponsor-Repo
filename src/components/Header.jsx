@@ -16,10 +16,15 @@ function Header(){
     };
 
     return(
-        <header className="header">
+        <header className="header" style={{padding : '10px'}}>
             <div className="contenedor-header">
                 <div className="logo">
-                    <img src="/favicon.ico" alt="logo" style={{width: '56px'}}/> 
+                    <MdOutlineMenu style={{color: 'black', fontSize: '30px'}} className='menu' onClick={toggleMenu}/>
+                    <div className="section_titulo_blog_vercel" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                        <img src="/favicon.ico" alt="" style={{width: '36px' , height : 'auto' , display: 'flex' , alignItems: 'center'}}/>
+                        <h1> VERCEL </h1> 
+                    </div>
+                    <FaGithub style={{color: 'black', fontSize: '30px'}} className="Github_header_responsive" onClick={github_Vercel}/>
                 </div>
                 <div className="Redes">
                     <p style={{fontSize: '16px'}}>Visita nuestras redes</p>
@@ -28,14 +33,6 @@ function Header(){
                         <FaTwitter style={{color: 'cyan', fontSize: '30px'}} className="twitter" onClick={twitter_Vercel}/>
                         <FaYoutube style={{color: 'red', fontSize: '30px'}} className="youtube" onClick={youtube_Vercel}/>
                     </div>
-                </div>
-                <div className="menu-responsive">
-                    <span className='Span_header_menu'>Menu</span>
-                    <MdOutlineMenu 
-                        style={{color: 'black', fontSize: '30px'}} 
-                        className='menu'
-                        onClick={toggleMenu}
-                    />
                 </div>
                 <nav className={`nav${isMenuActive ? '-active' : ''}`}>
                     <p className='close-menu' onClick={closeMenu}>X</p>
