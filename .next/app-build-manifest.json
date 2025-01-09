@@ -11,18 +11,6 @@
       "static/chunks/main-app.js",
       "static/css/app/page.css",
       "static/chunks/app/page.js"
-    ],
-    "/pages/site/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/pages/site/page.css",
-      "static/chunks/app/pages/site/page.js"
-    ],
-    "/pages/site/what-is-vercel/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/pages/site/what-is-vercel/page.css",
-      "static/chunks/app/pages/site/what-is-vercel/page.js"
     ]
   }
 }

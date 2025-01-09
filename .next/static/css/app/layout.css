@@ -93,3 +93,28 @@ a {
     color-scheme: dark;
   }
 }
+
+@media (prefers-color-scheme: light) {
+  html {
+    color-scheme: light;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/pages/css/notch-support.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+/* Soporte universal para notch */
+@supports (padding-top: env(safe-area-inset-top)) {
+    .container_section_1,
+    .container_section_2,
+    .container_section_3 {
+        padding-top: env(safe-area-inset-top);
+        padding-right: env(safe-area-inset-right);
+        padding-bottom: env(safe-area-inset-bottom);
+        padding-left: env(safe-area-inset-left);
+        min-height: calc(100vh - env(safe-area-inset-top));
+    }
+
+    .titulo_vercel {
+        margin-top: env(safe-area-inset-top);
+    }
+} 

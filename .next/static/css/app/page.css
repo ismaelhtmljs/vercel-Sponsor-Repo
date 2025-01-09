@@ -314,29 +314,35 @@ body {
     }
 }
 
-@media screen and (orientation: landscape) and (max-width: 767px){
-    .titulo_vercel{
+@media screen and (orientation: landscape) and (max-height: 766px){
+    .container_section_1,
+    .container_section_2,
+    .container_section_3 {
+        min-height: 100vh;
+    }
+
+    .titulo_vercel {
         gap: 20px;
     }
 
-    .frase_vercel p{
+    .frase_vercel p {
         font-size: 18px;
     }
 
-    .titulo_vercel h1{
+    .titulo_vercel h1 {
         font-size: 40px;
     }
 
-    .OYPEnA{
+    .OYPEnA {
         font-size: 20px;
     }
 
-    .initial_msg img{
+    .initial_msg img {
         width: 43px !important;
         height: 43px !important;
     }
 
-    .initial_msg h1{
+    .initial_msg h1 {
         font-size: 55px !important;
     }
 

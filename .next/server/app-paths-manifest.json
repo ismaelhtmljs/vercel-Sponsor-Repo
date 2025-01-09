@@ -1,5 +1,4 @@
 {
-  "/page": "app/page.js",
-  "/pages/site/page": "app/pages/site/page.js",
-  "/pages/site/what-is-vercel/page": "app/pages/site/what-is-vercel/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js"
 }
