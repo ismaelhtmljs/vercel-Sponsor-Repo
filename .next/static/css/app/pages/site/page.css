@@ -78,6 +78,10 @@ body {
     align-items: center;
 }
 
+.Redes-nav{
+    display: none;
+}
+
 .Redes{
     display: flex;
     justify-content: center;
@@ -161,6 +165,13 @@ body {
         display: flex;
         align-items: center;
     }
+
+    .nav-active{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-direction: column;
+    }
     
     .nav-active ul{
         list-style: none;
@@ -182,7 +193,30 @@ body {
         align-items: center;
         width: 100%;
     }
+
+    .Redes-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .iconos-redes-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px !important;
+    }
     
+    .iconos-redes-nav::before{
+        margin-right: 10px;
+        margin-left: 2px;
+        width: 2px;
+        height: 30px;
+        background-color: #ffffff6b;
+        content: "";
+    }
+
     .Redes{
         display: none;
     }
@@ -213,6 +247,13 @@ body {
     .nav{
         display: none;
     }
+
+    .nav-active{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-direction: column;
+    }
     
     .header{
         flex-direction: column;
@@ -221,6 +262,29 @@ body {
         gap: 15px;
         justify-content: center;
         flex-wrap: wrap;
+    }
+
+    .Redes-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .iconos-redes-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px !important;
+    }
+    
+    .iconos-redes-nav::before{
+        margin-right: 10px;
+        margin-left: 2px;
+        width: 2px;
+        height: 30px;
+        background-color: #ffffff6b;
+        content: "";
     }
     
     .iconos-redes{
@@ -281,6 +345,36 @@ body {
 @media screen and (min-width: 425px) and (max-width: 480px){
     .nav{
         display: none;
+    }
+
+    .nav-active{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Redes-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .iconos-redes-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px !important;
+    }
+    
+    .iconos-redes-nav::before{
+        margin-right: 10px;
+        margin-left: 2px;
+        width: 2px;
+        height: 30px;
+        background-color: #ffffff6b;
+        content: "";
     }
     
     .header{
@@ -350,6 +444,36 @@ body {
 @media screen and (min-width: 481px) and (max-width: 768px){
     .nav{
         display: none;
+    }
+
+    .nav-active{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Redes-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .iconos-redes-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px !important;
+    }
+    
+    .iconos-redes-nav::before{
+        margin-right: 10px;
+        margin-left: 2px;
+        width: 2px;
+        height: 30px;
+        background-color: #ffffff6b;
+        content: "";
     }
     
     .header{
@@ -422,6 +546,36 @@ body {
     .nav{
         display: none;
     }
+
+    .nav-active{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Redes-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .iconos-redes-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px !important;
+    }
+    
+    .iconos-redes-nav::before{
+        margin-right: 10px;
+        margin-left: 2px;
+        width: 2px;
+        height: 30px;
+        background-color: #ffffff6b;
+        content: "";
+    }
     
     .header{
         flex-direction: column;
@@ -446,6 +600,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 15px;
         justify-content: center;
         flex-wrap: wrap;
     }
@@ -490,6 +645,36 @@ body {
     .nav{
         display: none;
     }
+
+    .nav-active{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Redes-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .iconos-redes-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px !important;
+    }
+    
+    .iconos-redes-nav::before{
+        margin-right: 10px;
+        margin-left: 2px;
+        width: 2px;
+        height: 30px;
+        background-color: #ffffff6b;
+        content: "";
+    }
     
     .header{
         flex-direction: column;
@@ -513,6 +698,7 @@ body {
         list-style: none;
         display: flex;
         flex-direction: column;
+        gap: 15px;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
@@ -558,6 +744,36 @@ body {
     .nav{
         display: none;
     }
+
+    .nav-active{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Redes-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .iconos-redes-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px !important;
+    }
+    
+    .iconos-redes-nav::before{
+        margin-right: 10px;
+        margin-left: 2px;
+        width: 2px;
+        height: 30px;
+        background-color: #ffffff6b;
+        content: "";
+    }
     
     .header{
         flex-direction: column;
@@ -582,6 +798,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 15px;
         justify-content: center;
         flex-wrap: wrap;
     }
@@ -1084,6 +1301,7 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 15px;
         flex-wrap: wrap;
     }
 
@@ -1181,6 +1399,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 15px;
         justify-content: center;
         flex-wrap: wrap;
     }
@@ -1277,6 +1496,7 @@ body {
     .nav-active ul{
         list-style: none;
         display: flex;
+        gap: 15px;
         flex-direction: column;
         align-items: center;
         justify-content: center;

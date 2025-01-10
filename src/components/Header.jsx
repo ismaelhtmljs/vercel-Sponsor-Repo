@@ -43,6 +43,14 @@ function Header(){
                         <li><a href="/pages/site/sobre-vercel">SOBRE VERCEL</a></li>
                         <li><a href="/pages/site/try-vercel">PROBAR VERCEL</a></li>
                     </ul>
+                    <div className="Redes-nav">
+                    <p style={{fontSize: '16px'}}>Visita nuestras redes</p>
+                    <div className="iconos-redes-nav" style={{gap: '25px'}}>
+                        <FaGithub style={{color: 'black', fontSize: '30px'}} className="github" onClick={github_Vercel}/>
+                        <FaTwitter style={{color: 'cyan', fontSize: '30px'}} className="twitter" onClick={twitter_Vercel}/>
+                        <FaYoutube style={{color: 'red', fontSize: '30px'}} className="youtube" onClick={youtube_Vercel}/>
+                    </div>
+                </div>
                 </nav>
             </div>
         </header>

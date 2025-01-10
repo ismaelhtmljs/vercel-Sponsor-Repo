@@ -24,17 +24,17 @@
       "static/css/app/pages/site/what-is-vercel/page.css",
       "static/chunks/app/pages/site/what-is-vercel/page.js"
     ],
-    "/pages/site/try-vercel/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/pages/site/try-vercel/page.css",
-      "static/chunks/app/pages/site/try-vercel/page.js"
-    ],
     "/pages/site/sobre-vercel/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/pages/site/sobre-vercel/page.css",
       "static/chunks/app/pages/site/sobre-vercel/page.js"
+    ],
+    "/pages/site/try-vercel/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/pages/site/try-vercel/page.css",
+      "static/chunks/app/pages/site/try-vercel/page.js"
     ]
   }
 }
